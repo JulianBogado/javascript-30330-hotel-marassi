@@ -1,0 +1,147 @@
+.border{
+    background-color: #406882;
+    height: 5em;
+}
+
+.principal{
+    margin-top: .5em;
+}
+
+.principal > a{
+    margin-left: 10px;
+}
+
+.h3{
+    margin-top: 20px;
+}
+
+input{
+    outline: none;
+}
+
+.divFormulario{
+    margin: auto;
+    background-color: #1A374D;
+    height: 10em;
+    width: 70%;
+    border-radius: 8px;
+    
+}
+
+.divContenedor{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.divSelect{
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+    width: auto;
+    height: 3em;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.divBuscar{
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+    width: auto;
+    height: 3em;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.ament{
+    list-style: none;
+}
+
+.inputDate{
+    height: 2em;
+    width: auto;
+    border: none;
+}
+.select{
+    height: 2em;
+    width: auto;
+    display: flex;
+    margin: auto;
+    border: none;
+}
+
+.inputBtn{
+    width: auto;
+    border: none;
+    background-color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputN{
+    margin: auto;
+    border: none;
+}
+
+.card{
+    max-width: 540px;
+    margin: auto;
+}
+
+.cardContainer{
+    margin-top: 40px;
+}
+
+.card-body > p{
+    
+}
+
+.divReserva{
+    height: 400px;
+    border: solid 1px #1A374D;
+    border-radius: 8px;
+    margin-top: 40px;
+    background-color: #6998AB;
+}
+
+.divReserva > p{
+    margin-left: 15px;
+}
+
+.h4Reserva{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.divFechas{
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.divFechas > p{
+    margin-top: 0px;
+}
+
+.carousel{
+    margin: auto;
+}
+
+.imagenes{
+    width: 60%;
+    margin: auto;
+}
+
+.botonCar{
+    width: 60%;
+    color: black;
+}
+
+.botonContacto{
+    margin-top: 10px;
+    text-align: center;
+}

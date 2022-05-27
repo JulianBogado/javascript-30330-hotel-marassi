@@ -1,0 +1,71 @@
+[{
+    "id": 1,
+    "nombre": "Habitación Clásica",
+    "camas": 1,
+    "tipoCama": "Simple",
+    "huespedes": 1,
+    "tv": "No",
+    "minibar": "No",
+    "price": 1500,
+    "disponible": true,
+    "img1": "https://www.iceportal.com/data/2813-143961-f72244794_XXLejpg/Bahrain/Manama/Vida-Beach-Resort-Marassi-Al-Bahrain/Photo/Vida-Beach-Resort-Marassi-Al-Bahrain-Manama-Undefined-Deluxe-room.jpg",
+    "img2": "https://www.iceportal.com/data/2813-143961-f72244708_XXLejpg/Bahrain/Manama/Vida-Beach-Resort-Marassi-Al-Bahrain/Photo/Vida-Beach-Resort-Marassi-Al-Bahrain-Manama-Undefined-Presidential.jpg",
+    "img3": "https://www.iceportal.com/data/2813-143961-f72244790_XXLejpg/Bahrain/Manama/Vida-Beach-Resort-Marassi-Al-Bahrain/Photo/Vida-Beach-Resort-Marassi-Al-Bahrain-Manama-Undefined-Bathroom.jpg"
+}, {
+    "id": 2,
+    "nombre": "Habitación Doble",
+    "camas": 2,
+    "tipoCama": "Queen",
+    "huespedes": 2,
+    "tv": "No",
+    "minibar": "No",
+    "price": 1800,
+    "disponible": true,
+    "img1": "https://www.iceportal.com/data/2813-143961-f72244794_XXLejpg/Bahrain/Manama/Vida-Beach-Resort-Marassi-Al-Bahrain/Photo/Vida-Beach-Resort-Marassi-Al-Bahrain-Manama-Undefined-Deluxe-room.jpg",
+    "img2": "https://www.iceportal.com/data/2813-143961-f72244708_XXLejpg/Bahrain/Manama/Vida-Beach-Resort-Marassi-Al-Bahrain/Photo/Vida-Beach-Resort-Marassi-Al-Bahrain-Manama-Undefined-Presidential.jpg",
+    "img3": "https://www.iceportal.com/data/2813-143961-f72244790_XXLejpg/Bahrain/Manama/Vida-Beach-Resort-Marassi-Al-Bahrain/Photo/Vida-Beach-Resort-Marassi-Al-Bahrain-Manama-Undefined-Bathroom.jpg"
+
+    
+}, {
+    "id": 3,
+    "nombre": "Habitación Doble Deluxe",
+    "camas": 1,
+    "tipoCama": "King",
+    "huespedes": 2,
+    "tv": "Si",
+    "minibar": "No",
+    "price": 2000,
+    "disponible": true,
+    "img1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlYlfsHSF0XstPeQm3jQylJtGXQI7_It1AKqQoTBpJMQ9FbkJF_WeOZdq1JgnufLUbDsA&usqp=CAU",
+    "img2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/334097744.jpg?k=a48fb9b70b535118364dd582f76ae9604a4532129acc70c9c547f0fb6be14957&o=&hp=1",
+    "img3": "https://www.iceportal.com/data/2813-143961-f72244790_XXLejpg/Bahrain/Manama/Vida-Beach-Resort-Marassi-Al-Bahrain/Photo/Vida-Beach-Resort-Marassi-Al-Bahrain-Manama-Undefined-Bathroom.jpg"
+
+}, {
+    "id": 4,
+    "nombre": "Habitación Premium",
+    "camas": 2,
+    "tipoCama": "King",
+    "huespedes": 3,
+    "tv": "Si",
+    "minibar": "Si",
+    "price": 2000,
+    "disponible": true,
+    "img1": "http://www.zodiactravelegypt.com/images/Alamein_Hotel/143966152.jpg",
+    "img2": "https://cf.bstatic.com/images/hotel/840x460/334/334396236.jpg",
+    "img3": "https://content.r9cdn.net/rimg/himg/38/7b/70/ice-150159288-62030613_3XL-818912.jpg?width=500&height=350&xhint=960&yhint=748&crop=true"
+
+}, {
+    "id": 5,
+    "nombre": "Habitación Luxury",
+    "camas": 3,
+    "tipoCama": "King",
+    "huespedes": 4,
+    "tv": "Si",
+    "minibar": "Si",
+    "price": 2500,
+    "disponible": true,
+    "img1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdVosk5ptIOkzrLiaZWOpqKQBiiNcyd27dUi6fjGJ4wOt4SwtAIwpS8q-08xzcSx-r178&usqp=CAU",
+    "img2": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/334101937.jpg?k=c6907d4af0d060623681c284cd2072d416057234a7aeb4f8c21f85d86158bc3c&o=&hp=1",
+    "img3": "http://www.zodiactravelegypt.com/images/Alamein_Hotel/143966157.jpg"
+
+}]
