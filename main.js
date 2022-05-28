@@ -79,23 +79,23 @@ function guest() {
         let contenedor = document.createElement("div");
         contenedor.innerHTML = "";
         contenedor.innerHTML = `<div class="row no-gutters">
-                                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleControls${h.id}" class="carousel slide" data-bs-ride="carousel">
                                         <div class="carousel-inner">
                                           <div class="carousel-item active">
-                                            <img src=${h.img1} class="d-block w-100" alt="...">
+                                            <img src=${h.img1} class="d-block w-100 imgCarousel" alt="...">
                                           </div>
                                           <div class="carousel-item">
-                                            <img src=${h.img2} class="d-block w-100" alt="...">
+                                            <img src=${h.img2} class="d-block w-100 imgCarousel" alt="...">
                                           </div>
                                           <div class="carousel-item">
-                                            <img src=${h.img3} class="d-block w-100" alt="...">
+                                            <img src=${h.img3} class="d-block w-100 imgCarousel" alt="...">
                                           </div>
                                         </div>
-                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls${h.id}" data-bs-slide="prev">
                                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                           <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls${h.id}" data-bs-slide="next">
                                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                           <span class="visually-hidden">Next</span>
                                         </button>
@@ -126,22 +126,23 @@ function reservar(i){
     let bcheck = document.createElement("div");
     bcheck.innerHTML="";
     $("#preReserva").empty();
-    bcheck.innerHTML= ` <div class="card">
+    bcheck.innerHTML= ` <div class="card preReserva">
                             <div class="card-body">
                                 <h5 class="card-title"><strong>${room.nombre}</strong></h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text">Amenities:</p>
                                 <ul class="ament">
                                     <li>Cantidad de camas: ${room.camas}
                                     <li>Minibar: ${room.minibar}</li>
                                     <li>Televisor: ${room.tv}</li>
                                     <li>Tipo de Cama: ${room.tipoCama}</li>
-                                    <li>Disponibilidad: ${room.disponible}</li>
+                                    
                                 </ul>
-                                <p>Check In: ${moment(localStorage.getItem("checkIn.id")).format("Do MMM YY")} </p>
-                                <p>Check Out: ${moment(localStorage.getItem("checkOut.id")).format("Do MMM YY")} </p>
-                                <p>El valor total es de $${localStorage.getItem("dateTotal")*room.price}</p>
-      
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <ul class="ament">
+                                    <li>Check In: ${moment(localStorage.getItem("checkIn.id")).format("Do MMM YY")} </li>
+                                    <li>Check Out: ${moment(localStorage.getItem("checkOut.id")).format("Do MMM YY")} </li>
+                                    <li>El valor total es de $${localStorage.getItem("dateTotal")*room.price}</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Confirmar selección</a>
                             </div>
                         </div>
 
