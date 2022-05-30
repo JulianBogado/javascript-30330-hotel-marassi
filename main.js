@@ -128,21 +128,21 @@ function reservar(i){
     $("#preReserva").empty();
     bcheck.innerHTML= ` <div class="card preReserva">
                             <div class="card-body">
-                                <h5 class="card-title"><strong>${room.nombre}</strong></h5>
+                                <h5 class="card-title"><strong id="idHab">${room.nombre}</strong></h5>
                                 <p class="card-text">Amenities:</p>
                                 <ul class="ament">
-                                    <li>Cantidad de camas: ${room.camas}
+                                    <li>Camas: ${room.camas}
                                     <li>Minibar: ${room.minibar}</li>
                                     <li>Televisor: ${room.tv}</li>
                                     <li>Tipo de Cama: ${room.tipoCama}</li>
-                                    
+                                    <li>Precio por noche: <span id="pHab">${room.price}</span></li>
                                 </ul>
                                 <ul class="ament">
                                     <li>Check In: ${moment(localStorage.getItem("checkIn.id")).format("Do MMM YY")} </li>
                                     <li>Check Out: ${moment(localStorage.getItem("checkOut.id")).format("Do MMM YY")} </li>
                                     <li>El valor total es de $${localStorage.getItem("dateTotal")*room.price}</li>
                                 </ul>
-                                <a href="#" class="btn btn-primary">Confirmar selección</a>
+                                <a href="./pago.html" class="btn btn-primary" onclick="checkout()">Confirmar selección</a>
                             </div>
                         </div>
 
@@ -159,4 +159,13 @@ function reservar(i){
                         
                     </div>`;
     document.getElementById("preReserva").appendChild(bcheck);
+}
+
+function checkout(){
+    sessionStorage.setItem("nombreHab", document.getElementById("idHab").innerHTML);
+    sessionStorage.setItem("priceHab", document.getElementById("pHab").innerHTML);
+
+    console.log(sessionStorage.getItem("priceHab"));
+    console.log(sessionStorage.getItem("nombreHab"));
+
 }
